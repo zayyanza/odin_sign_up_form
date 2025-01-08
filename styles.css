@@ -1,0 +1,37 @@
+.left {
+    flex: 1;   
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.right1 {
+    flex: 1;
+}
+
+.right2 {
+    flex: 1;
+}
+
+.right3 {
+    flex: 1;
+}
